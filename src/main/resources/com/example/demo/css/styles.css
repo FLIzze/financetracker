@@ -1,0 +1,119 @@
+VBox {
+    -fx-background-color: #fafafa;
+    -fx-padding: 15px;
+}
+
+#welcomeText {
+    -fx-font-size: 36px;
+    -fx-font-family: 'Arial', sans-serif;
+    -fx-font-weight: lighter;
+    -fx-alignment: center;
+    -fx-text-fill: #333;
+    -fx-padding: 10px;
+}
+
+TableView {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 10px;
+    -fx-padding: 5px;
+    -fx-effect: dropshadow(gaussian, #bbb, 10, 0.0, 0, 0);
+}
+
+TableColumn {
+    -fx-font-size: 16px;
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-font-weight: normal;
+    -fx-text-fill: #666;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #f9f9f9;
+}
+
+.table-row-cell:even {
+    -fx-background-color: #ffffff;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #eeeeee;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header .label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+.table-view .column-header {
+    -fx-background-color: #3498db;
+}
+
+.grid-pane {
+    padding: 20px;
+    background-color: #ffffff;
+    hgap: 15px;
+    vgap: 15px;
+}
+
+.grid-pane Label {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 14px;
+    color: #444;
+}
+
+.grid-pane TextField {
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 5px;
+    -fx-background-color: #f2f2f2;
+    -fx-border-color: #ccc;
+}
+
+.grid-pane TextField:focused {
+    -fx-border-color: #3498db;
+    -fx-background-color: #e3f2fd;
+}
+
+#btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: #2980b9;
+}
+
+.hbox {
+    alignment: center-right;
+    spacing: 15px;
+}
+
+.menu-combo {
+    -fx-background-color: #f7f7f7;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 8px;
+    -fx-font-size: 14px;
+    -fx-pref-width: 180px;
+}
+
+.menu-combo .list-cell {
+    -fx-text-fill: #444;
+}
+
+.menu-combo .combo-box-popup .list-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5;
+}
