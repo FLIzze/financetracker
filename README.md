@@ -1,5 +1,5 @@
 ```
-cd FinanceTracker
+cd financetracker
 chmod +x gradlew
 ./gradlew run
 ```
